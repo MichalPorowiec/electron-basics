@@ -1,0 +1,20 @@
+{
+  "name": "electron-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "start.js",
+  "scripts": {
+    "electron": "electron ."
+  },
+  "author": "Michał Porowiec",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^5.0.4",
+    "fluent-ffmpeg": "^2.1.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/register": "^7.4.4"
+  }
+}
